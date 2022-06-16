@@ -1,0 +1,24 @@
+{% extends 'base.html.twig' %}
+
+{% block title %}Hello FamilleController!{% endblock %}
+
+{% block body %}
+    <h5 class="mx-3">Entretien technique Orent</h5>
+    
+    <form method="POST" class="col-5 m-3">
+        <label for="sous_sous_famille" class="form-label col-5">Sous sous Famille</label>
+        <input type="text" class="form-control col-5" id ="sous_sous_famille" placeholder="Veuillez entrer une sous sous famille" name = "sous_sous_famille" required>
+        <small class='text-danger d-block fst-italic'>Attention sensible à la casse !</small>
+        <button type="submit" class="btn btn-primary mt-2">Valider</button>
+    </form>
+    {% if familles|length > 0  %}
+        <div class="col-5 mx-3">
+            <div>La sous sous famille saisie (<span class="fw-bold">{{ sous_sous_famille }}</span>) appartient à la famille de <span class="fw-bold">{{ famille }}</span> et à la sous famille de <span class="fw-bold">{{ sous_famille }}</span> </div> 
+        </div>
+    {% else %} 
+        <div class="col-5 mx-3">
+            <div><span class="fw-bold">{{ message_erreur }}</span></div>
+        </div>
+    {% endif %}
+
+{% endblock %}

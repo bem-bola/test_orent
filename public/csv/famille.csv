@@ -1,0 +1,73 @@
+﻿Famille;Sous Famille;Sous Sous Famille
+;;
+Meuble;;
+;Chambre / Literie;
+;;Armoire
+;;Commode
+;;Lit
+;;Matelas
+;;Sommier
+;Cuisine - salle à manger;
+;;Cuisine conviviale
+;;Vaisselle
+;;Linge de table
+;;Bouilloire
+;Salon;
+;;Canapé
+;;Fauteuil
+;;Pouf / repose-pieds
+;;Table basse
+;;Meuble TV
+;;Console
+Electroménager;;
+;Gros électroménager;
+;;Cuisinière
+;;Four
+;;Réfrigérateur
+;;Cave à vin
+;;Congélateur
+;;Lave vaisselle
+;;Lave linge
+;;Sèche-linge
+;Petit électroménager;
+;;Four - Micro ondes
+;;Plaque électrique
+;;Robot culinaire
+;;Friteuse
+Multimédia;;
+;Image et son;
+;;Télévision
+;;Support TV
+;;Décodeur TNT
+;;Vidéoprojecteur
+;;Enceinte
+;Informatique;
+;;Imprimante
+;;Tablette
+;Jeux vidéo;
+;;Console de jeux
+;;Manette
+;;
+Equipement;;
+;Entretien;
+;;Accessoire de ménage
+;;Planche à repasser
+;Loisirs;
+;;Baby Foot
+;Matériel de jardin;
+;;Tondeuse
+;Matériel de sport;
+;;Banc de musculation
+;;Haltères
+;;Tapis de sport
+;;Vélo elliptique
+;;Rameur
+;;Plateforme vibrante
+;;Tapis de course
+;;Matériel de fitness
+;Puériculture;
+;;Poussette
+;;Chaise haute bébé
+;;Siège auto
+;;Coffre à jouet
+;;
